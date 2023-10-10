@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome_section{
+  width:100vw;
+  height:100vh;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes star-wars {
+  0%{
+    font-size: 100%;
+    transform: translate(0, -100vh);
+    opacity: 0;
+  }
+  100%{
+    
+    font-size: 1000%;
+    opacity: 1;
+  }
+
+  
+}
+
+.welcome_section h1{
+  position: absolute;
+  font-size: 1000%;
+
+  
+}
