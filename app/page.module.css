@@ -37,3 +37,14 @@
 
   
 }
+
+.us{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap:2rem;
+  padding: 1rem;;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  
+}

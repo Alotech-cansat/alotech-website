@@ -1,0 +1,51 @@
+
+
+.member_div{
+    background-color: aliceblue;
+    width:40vw;
+    max-width: 400px;
+    min-width: 300px;
+    aspect-ratio: 2 / 3;
+    position: relative;
+    
+}
+
+.Namediv{
+    background-color: var(--background-color);
+    opacity: 0.8;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.member_image_normal{
+    width:100%;
+    height:100%;
+    opacity: 1;
+    position: absolute;
+    transition: .5s;
+}
+
+.member_image_hobby{
+    width:100%;
+    height:100%;
+    opacity: 0;
+    position: absolute;
+    transition: .5s;
+}
+
+.member_div:hover > .member_image_normal{
+    opacity: 0;
+    transition: .5s;
+}
+
+.member_div:hover > .member_image_hobby{
+    opacity: 1;
+    transition: .5s;
+    
+}
