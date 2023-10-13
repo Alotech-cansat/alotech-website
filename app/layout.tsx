@@ -18,11 +18,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <nav>
-          <a href="/#welcome_section">main</a>
+          <a href="#welcome_section">main</a>
           |
-          <a href="">about us</a>
+          <a href="#about-us">about us</a>
           |
-          <a href="">our cansat</a>
+          <a href="#our-cansat">our cansat</a>
+          |
+          <a href="#contact">contact</a>
           
 
         </nav>

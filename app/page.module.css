@@ -38,13 +38,55 @@
   
 }
 
-.us{
+.us_images{
   display: flex;
   justify-content: center;
   align-items: start;
   gap:2rem;
-  padding: 1rem;;
+
   flex-wrap: wrap;
+
+
+}
+
+.us h1{
+  font-size: 500%;
+
+}
+
+.us{
+  padding: 1rem;
   box-sizing: border-box;
+}
+
+.cansat h1{
+  font-size: 500%;
+}
+
+.contacts{
+  display: block;
+  position: relative;
+  height: 100vh;
+
+
+
+}
+.contacts_wrap{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  gap:2rem;
+
+}
+.contact h1{
+  font-size: 500%;
+}
+
+.contact a{
+  font-size: 200%;
   
 }

@@ -18,10 +18,28 @@ export default function Home() {
         </Image>
 
       </section>
-      <section className={styles.us}>
+      <section className={styles.us} id ="about-us">
+        <h1>MEET US</h1>
+        <div className={styles.us_images}>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
+        </div>
+      </section>
 
-        <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
-        <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
+      <section id = "our-cansat" className={styles.cansat}>
+      <h1>OUR CANSAT</h1>
+      </section>
+      <section id = "contact" className={styles.contact}>
+      <h1>CONTACT</h1>
+      <div className={styles.contacts_wrap}>
+        <a href="mailto:"> nasz mail</a>
+        <a href="https://www.instagram.com/alotech_cansat2023/">our instgram</a>
+      </div>
+
       </section>
     </main>
   )

@@ -32,6 +32,7 @@ export function Member({member, member_hobby, name }: MemberProps){
             ></Image>
             <div className={styles.Namediv}>
                 <h3>{name}</h3>
+                <p>role</p>
             </div>
 
         </div>
