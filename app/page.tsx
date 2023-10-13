@@ -36,7 +36,7 @@ export default function Home() {
       <section id = "contact" className={styles.contact}>
       <h1>CONTACT</h1>
       <div className={styles.contacts_wrap}>
-        <a href="mailto:"> nasz mail</a>
+        <a href="mailto:alotech.cansat2023@gmail.com"> nasz mail</a>
         <a href="https://www.instagram.com/alotech_cansat2023/">our instgram</a>
       </div>
 
