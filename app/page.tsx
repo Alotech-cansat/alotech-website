@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
-const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/';
+const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
         <h1>MEET US</h1>
         <div className={styles.us_images}>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Błażej Bolek" role = "Team leader"></Member>
-          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
+          <Member member = {`${prefix}/karina.jpg`} member_hobby = {`${prefix}/karina-hobby.jpg`} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Stanisław Kawulok" role = "Software developer"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Data Analysis / Physics Expert"></Member>
