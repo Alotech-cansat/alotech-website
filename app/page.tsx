@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
 
         <h1>ALOTECH</h1>
         <Image 
-          src = "/logo.png"
+          src = "{`${prefix}/logo.png`}"
           width ={600}
           height = {600}
           alt = "out logo">
