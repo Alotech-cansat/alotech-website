@@ -11,6 +11,8 @@
   width:100vw;
   height:100vh;
 
+  overflow-x: hidden;
+
   justify-content: center;
   display: flex;
   align-items: center;
@@ -33,7 +35,9 @@
 
 .welcome_section h1{
   position: absolute;
-  font-size: 1000%;
+  font-size: 20vw;
+  max-width: 100vw;
+  overflow: hidden;
 
   
 }
