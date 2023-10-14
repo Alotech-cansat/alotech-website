@@ -5,10 +5,11 @@ interface MemberProps {
 
     member: string;
     member_hobby: string;
-    name: string
+    name: string;
+    role:string
   }
 
-export function Member({member, member_hobby, name }: MemberProps){
+export function Member({member, member_hobby, name, role }: MemberProps){
 
 
     return (
@@ -32,7 +33,7 @@ export function Member({member, member_hobby, name }: MemberProps){
             ></Image>
             <div className={styles.Namediv}>
                 <h3>{name}</h3>
-                <p>role</p>
+                <p>{role}</p>
             </div>
 
         </div>

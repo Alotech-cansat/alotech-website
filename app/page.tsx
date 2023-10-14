@@ -11,7 +11,7 @@ export default function Home() {
 
         <h1>ALOTECH</h1>
         <Image 
-          src = {`${prefix}/logo.png`}
+          src = '/logo.png'
           width ={600}
           height = {600}
           alt = "out logo">
@@ -22,12 +22,12 @@ export default function Home() {
       <section className={styles.us} id ="about-us">
         <h1>MEET US</h1>
         <div className={styles.us_images}>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Bibi"></Member>
-          <Member member = {"/logo.png"} member_hobby = {"/2001.png"} name = "Kari"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Błażej Bolek" role = "Team leader"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Stanisław Kawulok" role = "Software developer"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Grzegorz Diaconescu" role = "Data Analysis / Physics Expert"></Member>
+          <Member member = {"/logo.png"} member_hobby = {"/logo.png"} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
         </div>
       </section>
 
