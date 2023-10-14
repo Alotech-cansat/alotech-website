@@ -11,7 +11,7 @@ export default function Home() {
 
         <h1>ALOTECH</h1>
         <Image 
-          src = "{`${prefix}/logo.png`}"
+          src = {`${prefix}/logo.png`}
           width ={600}
           height = {600}
           alt = "out logo">
