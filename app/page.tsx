@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.us_images}>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Błażej Bolek" role = "Team leader"></Member>
           <Member member = {`${prefix}/karina.jpg`} member_hobby = {`${prefix}/karina-hobby.jpg`} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
-          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Stanisław Kawulok" role = "Software developer"></Member>
+          <Member member = {`${prefix}/stanislaw.jpg`} member_hobby = {`${prefix}/stanislaw-hobby.jpg`} name = "Stanisław Kawulok" role = "Software developer"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Data Analysis / Physics Expert"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
@@ -37,7 +37,7 @@ export default function Home() {
       <section id = "contact" className={styles.contact}>
       <h1>CONTACT</h1>
       <div className={styles.contacts_wrap}>
-        <a href="mailto:alotech.cansat2023@gmail.com"> nasz mail</a>
+        <a href="mailto:alotech.cansat2023@gmail.com"> alotech.cansat2023@gmail.com</a>
         <a href="https://www.instagram.com/alotech_cansat2023/">our instgram</a>
       </div>
 

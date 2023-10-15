@@ -33,12 +33,14 @@
     height:100%;
     opacity: 1;
     position: absolute;
+    object-fit: cover;
     transition: .5s;
 }
 
 .member_image_hobby{
     width:100%;
     height:100%;
+    object-fit: cover;
     opacity: 0;
     position: absolute;
     transition: .5s;
