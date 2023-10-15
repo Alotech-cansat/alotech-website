@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
-const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/';
+const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
       <h1>CONTACT</h1>
       <div className={styles.contacts_wrap}>
         <a href="mailto:alotech.cansat2023@gmail.com"> alotech.cansat2023@gmail.com</a>
-        <a href="https://www.instagram.com/alotech_cansat2023/">our instgram</a>
+        <a href="https://www.instagram.com/alotech_cansat2023/">our instagram</a>
       </div>
 
       </section>
