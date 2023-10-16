@@ -55,7 +55,7 @@
 }
 
 .us h1{
-  font-size: 500%;
+  font-size: min(500%, 15vw);
 
 }
 
@@ -65,7 +65,7 @@
 }
 
 .cansat h1{
-  font-size: 500%;
+  font-size: min(500%, 15vw);
 }
 
 .contacts{
@@ -88,10 +88,11 @@
 
 }
 .contact h1{
-  font-size: 500%;
+  font-size: min(500%, 15vw);
+  
 }
 
 .contact a{
-  font-size: 200%;
+  font-size: min(200%, 5vw)
   
 }
