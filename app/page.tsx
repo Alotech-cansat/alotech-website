@@ -22,12 +22,12 @@ export default function Home() {
       <section className={styles.us} id ="about-us">
         <h1>MEET US</h1>
         <div className={styles.us_images}>
-          <Member member = {`${prefix}/blaze.jpg`} member_hobby = {`${prefix}/blaze-hobby.jpg`} name = "Błażej Bolek" role = "Team leader"></Member>
-          <Member member = {`${prefix}/karina.jpg`} member_hobby = {`${prefix}/karina-hobby.jpg`} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
-          <Member member = {`${prefix}/stanislaw.jpg`} member_hobby = {`${prefix}/stanislaw-hobby.jpg`} name = "Stanisław Kawulok" role = "Software developer"></Member>
-          <Member member = {`${prefix}/emilia.jpg`} member_hobby = {`${prefix}/emilia-hobby.jpg`} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
-          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Data Analysis / Physics Expert"></Member>
-          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
+          <Member member = {`${prefix}/blaze.jpg`} member_hobby = {`${prefix}/blaze-hobby.jpg`} name = "Błażej Bolek" role = "TEAM LEADER"></Member>
+          <Member member = {`${prefix}/karina.jpg`} member_hobby = {`${prefix}/karina-hobby.jpg`} name = "Karina Leśkiewicz" role = "OUTREACH MANAGER"></Member>
+          <Member member = {`${prefix}/stanislaw.jpg`} member_hobby = {`${prefix}/stanislaw-hobby.jpg`} name = "Stanisław Kawulok" role = "SOFTWARE DEVELOPER"></Member>
+          <Member member = {`${prefix}/emilia.jpg`} member_hobby = {`${prefix}/emilia-hobby.jpg`} name = "Emilia Grygorowicz " role = "MECHANICAL LEADING ENGINEER"></Member>
+          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "DATA ANYLISIS  / PHYSICS EXPERT"></Member>
+          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Kajetan Kwiecień" role = "ELECTRICAL ENGINEER"></Member>
         </div>
       </section>
 
