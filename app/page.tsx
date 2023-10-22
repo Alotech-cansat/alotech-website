@@ -26,8 +26,8 @@ export default function Home() {
           <Member member = {`${prefix}/karina.jpg`} member_hobby = {`${prefix}/karina-hobby.jpg`} name = "Karina Leśkiewicz" role = "Outreach Manager"></Member>
           <Member member = {`${prefix}/stanislaw.jpg`} member_hobby = {`${prefix}/stanislaw-hobby.jpg`} name = "Stanisław Kawulok" role = "Software Developer"></Member>
           <Member member = {`${prefix}/emilia.jpg`} member_hobby = {`${prefix}/emilia-hobby.jpg`} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
-          <Member member = {`${prefix}/kajtek.jpg`} member_hobby = {`${prefix}/kajtek-hobby.jpg`} name = "Kajetan Kwiecień" role = "Data Analyst  / Physics Expert"></Member>
-          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Electrical Engineer"></Member>
+          <Member member = {`${prefix}/kajtek.jpg`} member_hobby = {`${prefix}/kajtek-hobby.jpg`} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
+          <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Data Analyst  / Physics Expert"></Member>
         </div>
       </section>
 
