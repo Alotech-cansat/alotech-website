@@ -2,21 +2,22 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
-const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/';
+const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/.';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <section id ="welcome_section" className = {styles.welcome_section}>
 
-        <h1>ALOTECH</h1>
+
         <Image 
           src = {`${prefix}/logo.png`}
           width ={600}
           height = {600}
-          alt = "out logo">
+          alt = "our logo">
 
         </Image>
+        <h1>ALOTECH</h1>
 
       </section>
       <section className={styles.us} id ="about-us">
