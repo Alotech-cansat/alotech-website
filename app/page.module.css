@@ -52,6 +52,18 @@
 
 .cansat h1{
   font-size: min(500%, 15vw);
+  position: absolute;
+  z-index: 99;
+}
+
+.cansat{
+  height:100vh;
+  object-fit: cover;
+  opacity: .9;
+  background-size: cover;
+  background-position: center;
+
+  
 }
 
 .contacts{

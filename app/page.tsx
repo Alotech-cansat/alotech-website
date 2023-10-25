@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
-const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/.';
+const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || '/alotech/';
 
 export default function Home() {
   return (
@@ -32,8 +32,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id = "our-cansat" className={styles.cansat}>
+      <section id = "our-cansat" className={styles.cansat} style = {{ backgroundImage: `url(${prefix}/cansatrender.png)` }}>
       <h1>OUR CANSAT</h1>
+
+
+
       </section>
       <section id = "contact" className={styles.contact}>
       <h1>CONTACT</h1>
