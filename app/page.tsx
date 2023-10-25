@@ -35,7 +35,7 @@ export default function Home() {
       <section id = "our-cansat" className={styles.cansat} style = {{ backgroundImage: `url(${prefix}/cansatrender.png)` }}>
       <h1>OUR CANSAT</h1>
 
-
+    <div className={styles.gradient}></div>
 
       </section>
       <section id = "contact" className={styles.contact}>
