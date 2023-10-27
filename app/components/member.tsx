@@ -13,6 +13,7 @@ export function Member({member, member_hobby, name, role }: MemberProps){
 
 
     return (
+        <div>
         <div className = {styles.member_div} >
             <Image
                 src = {member}
@@ -31,11 +32,13 @@ export function Member({member, member_hobby, name, role }: MemberProps){
                 sizes="100vw"
                 className={styles.member_image_hobby}
             ></Image>
-            <div className={styles.Namediv}>
-                <h3>{name}</h3>
-                <p>{role}</p>
-            </div>
+            
 
         </div>
+        <div className={styles.Namediv}>
+        <h3>{name}</h3>
+        <p>{role}</p>
+    </div>
+    </div>
     )
 }

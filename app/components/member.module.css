@@ -1,12 +1,14 @@
 
 
 .member_div{
-    background-color: aliceblue;
+    background-color: transparent;
     width:40vw;
     max-width: 400px;
     min-width: 300px;
-    aspect-ratio: 2 / 3;
-    border: 0 white solid;
+    
+    
+    display: flex;
+    flex-direction: column;
     
     position: relative;
     
@@ -15,9 +17,6 @@
 .Namediv{
     background-color: var(--background-color);
     
-    
-    width: 100%;
-    position: absolute;
     bottom: 0rem;
     z-index: 3;
     justify-content: left;
@@ -26,20 +25,23 @@
     gap:5px;
     flex-direction: column;
     display: flex;
+
 }
 
 .member_image_normal{
-    width:100%;
+    width: 100%;
     height:100%;
     opacity: 1;
-    position: absolute;
     object-fit: cover;
     transition: .5s;
+    aspect-ratio: 2 / 3;
+    
 }
 
 .member_image_hobby{
     width:100%;
     height:100%;
+    
     object-fit: cover;
     opacity: 0;
     position: absolute;
@@ -54,5 +56,7 @@
 .member_div:hover > .member_image_hobby{
     opacity: 1;
     transition: .5s;
+    z-index: 1;
+    aspect-ratio: 2 / 3 !important;
     
 }
