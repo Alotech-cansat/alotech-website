@@ -35,12 +35,12 @@ export default function Home() {
       <section id = "our-cansat" className={styles.cansat} >
 
       <h1>OUR CANSAT</h1>
+
       <div style = {{ backgroundImage: `url(${prefix}/cansatrender.png)` }}>
-          
+        
+
+        <div className={styles.gradient}></div>
       </div>
-
-    <div className={styles.gradient}></div>
-
       </section>
       <section id = "contact" className={styles.contact}>
       <h1>CONTACT</h1>

@@ -52,7 +52,7 @@
 
 .cansat h1{
   font-size: min(500%, 15vw);
-  position: absolute;
+  
   z-index: 99;
   padding: 1rem;
 }
@@ -60,29 +60,35 @@
 .cansat{
   padding: 0;
   height: auto;
-
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
   opacity: .9;
-  height: 100vh;
+  min-height: 100vh;
 
   
 
   
 }
+
 
 .cansat div{
   width:100%;
   height: 56.25vw;
   background-size: cover;
-  position: absolute;
+  
   z-index: 10;
 }
 
+
+
 .gradient{
+  
   width:100%;
   height: 56.25vw;
-  position: absolute;
+
   
-  z-index: 2;
+  z-index: 20;
   background-image: linear-gradient(0deg, 
     rgb(var(--background-color)) 0%,
     transparent 10%,
