@@ -46,7 +46,7 @@ export default function Home() {
         <p>All participating teams are tasked with measuring temperature and pressure while analysing the gathered data. Furthermore, each team is required to devise a unique mission concept.</p>
 
         <h1>  What is your secondary mission? </h1>
-        <p>Our CanSat is equipped with a first-aid kit and a communication system. Its purpose is to aid victims of natural disasters, providing assistance to rescue teams</p>
+        <p>Our CanSat is equipped with a first-aid kit and a communication system. Its purpose is to aid victims of natural disasters, providing assistance to rescuers in precarious situations.</p>
         </div>
       </section>
 
