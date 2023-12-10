@@ -30,6 +30,24 @@ export default function Home() {
           <Member member = {`${prefix}/kajtek.jpg`} member_hobby = {`${prefix}/kajtek-hobby.jpg`} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
           <Member member = {`${prefix}/logo.png`} member_hobby = {`${prefix}/logo.png`} name = "Grzegorz Diaconescu" role = "Data Analyst  / Physics Expert"></Member>
         </div>
+
+</section>
+<section className={styles.about_us_section}>
+        <div className={styles.about_us_text}>
+
+        <h1>What is a CanSat?</h1>
+
+        <p>A CanSat is a miniature satellite sized similarly to a standard soda can. Its primary objective is to conduct diverse research and experiments.</p>
+
+        <h1>What tasks are you undertaking for the CanSat Competition?</h1>
+        <p>Within a six-person team, we're engaging in the entire satellite creation process. Beginning with brainstorming, we translate ideas into a preliminary design, then proceed to construct and program it. Additionally, we're focused on sharing knowledge about space engineering and promoting our project.</p>
+
+        <h1>What are your primary responsibilities?</h1>
+        <p>All participating teams are tasked with measuring temperature and pressure while analysing the gathered data. Furthermore, each team is required to devise a unique mission concept.</p>
+
+        <h1>  What is your secondary mission? </h1>
+        <p>Our CanSat is equipped with a first-aid kit and a communication system. Its purpose is to aid victims of natural disasters, providing assistance to rescue teams</p>
+        </div>
       </section>
 
       <section id = "our-cansat" className={styles.cansat} >
