@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import {Member} from "./components/member"
 
-const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || 'https://alotech-cansat.github.io/alotech-website/emilia-hobby.jpg';
+const prefix =  process.env.NEXT_PUBLIC_BASE_PATH || 'https://alotech-cansat.github.io/alotech-website';
 
 export default function Home() {
   return (
