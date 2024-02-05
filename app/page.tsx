@@ -26,7 +26,7 @@ export default function Home() {
           <Member member = {`${prefix}/stanislaw.jpg`} member_hobby = {`${prefix}/stanislaw-hobby.jpg`} name = "Stanisław Kawulok" role = "Software Developer"></Member>
           <Member member = {`${prefix}/emilia.jpg`} member_hobby = {`${prefix}/emilia-hobby.jpg`} name = "Emilia Grygorowicz " role = "Mechanical Leading Engineer"></Member>
           <Member member = {`${prefix}/kajtek.jpg`} member_hobby = {`${prefix}/kajtek-hobby.jpg`} name = "Kajetan Kwiecień" role = "Electrical Engineer"></Member>
-          <Member member = {`${prefix}/diaco.png`} member_hobby = {`${prefix}/diaco-hobby.png`} name = "Grzegorz Diaconescu" role = "Data Analyst  / Physics Expert"></Member>
+          <Member member = {`${prefix}/diaco.jpg`} member_hobby = {`${prefix}/diaco-hobby.jpg`} name = "Grzegorz Diaconescu" role = "Data Analyst  / Physics Expert"></Member>
         </div>
 
 </section>
