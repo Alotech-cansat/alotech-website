@@ -43,6 +43,7 @@
     height:100%;
     
     object-fit: cover;
+    object-position: left;
     opacity: 0;
     position: absolute;
     transition: .5s;
